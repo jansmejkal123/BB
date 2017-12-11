@@ -1,0 +1,1 @@
+export const CALCULATE_LOAN = 'CALCULATE_LOAN';

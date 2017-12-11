@@ -1,7 +1,9 @@
 import { combineReducers } from 'redux';
+import loanCalcResult from './loanCalcResult';
+
 
 const rootReducer = combineReducers({
-  state: (state = {}) => state
+	loanCalcResult: loanCalcResult
 });
 
 export default rootReducer;
